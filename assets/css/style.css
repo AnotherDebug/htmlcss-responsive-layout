@@ -303,10 +303,12 @@ footer .box-menu {
     /* planning */
     main .planning .row {
         display: flex;
+        justify-content: center;
     }
 
     main .planning .row .col {
-        width: calc(100% / 2);
+       
+        margin: 0 10px;
     }
 
     main .planning .row .col:first-child {
