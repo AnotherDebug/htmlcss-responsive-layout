@@ -94,6 +94,16 @@ main .testimonials .row .card .img {
 
 /* /testimonials */
 
+/* benefits */
+main .benefits {
+    text-align: center;
+}
+
+main .benefits .row .col .card {
+    border-radius: 10px;
+}
+/* /benefits */
+
 /* /MAIN */
 
 
@@ -156,6 +166,17 @@ main .testimonials .row .card .img {
     }
 
     /* /planning */
+
+    /* benefits */
+    main .benefits .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .benefits .row .col {
+        width: calc(100% / 2);
+    }
+    /* /benefits */
 
 
     /* /MAIN */
@@ -222,6 +243,17 @@ main .testimonials .row .card .img {
         margin: 0 auto;
     }
     /* /testimonials */
+
+       /* benefits */
+    main .benefits .row {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    main .benefits .row .col {
+        width: calc(100% / 3);
+    }
+    /* /benefits */
 
 
     /* /MAIN */
