@@ -45,20 +45,30 @@ header .topbar {
 /* /HEADER */
 
 /* MAIN */
+
+/* demo */
 main .demo .row {
     flex-direction: column;
+    align-items: center;
 }
 
 main .demo .row .col {
-    margin: 20px;
     /* !ALTEZZA PROVVISORIA (DA ELIMINARE) */
     height: 200px;
-    border-radius: 15px;
+}
+
+main .demo .row .col .card {
+    /* !ALTEZZA PROVVISORIA (DA ELIMINARE) */
+    height: 100%;
 }
 
 main .demo .row .col .card {
     justify-content: center;
+    border-radius: 10px;
 }
+
+/* /demo */
+
 /* /MAIN */
 
 
@@ -84,7 +94,36 @@ main .demo .row .col .card {
 
 
 /* RISOLUZIONE 768px TABLET */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+    /* MAIN */
+
+    /* demo */
+    main .demo .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main .demo .row .col:nth-child(1) {
+        width: 66.66%;
+    }
+
+    main .demo .row .col:nth-child(2) {
+        width: 33.33;
+        flex-grow: 1;
+    }
+
+    main .demo .row .col:nth-child(3),
+    .col:nth-child(4),
+    .col:nth-child(5) {
+        width: calc(33.33%);
+    }
+
+
+    /* /demo */
+
+    /* /MAIN */
+}
 
 /* /RISOLUZIONE 768px TABLET */
 
