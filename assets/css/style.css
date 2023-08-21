@@ -44,14 +44,29 @@ header .topbar {
 
 /* /HEADER */
 
+/* MAIN */
+main .demo .row {
+    flex-direction: column;
+}
+
+main .demo .row .col {
+    margin: 20px;
+    /* !ALTEZZA PROVVISORIA (DA ELIMINARE) */
+    height: 200px;
+    border-radius: 15px;
+}
+
+main .demo .row .col .card {
+    justify-content: center;
+}
+/* /MAIN */
+
 
 /************************************************
     RESPONSIVE
  ************************************************/
 
 /* SOLUZIONE MOBILE FIRST */
-
-
 
 /* RISOLUZIONE 550px MOBILE */
 @media screen and (min-width: 550px) {
@@ -64,18 +79,18 @@ header .topbar {
     /* /HEADER */
 }
 
-/* /RISOLUZIONE 1200 PX */
+/* /RISOLUZIONE 550px MOBILE */
 
 
 
 /* RISOLUZIONE 768px TABLET */
 @media screen and (min-width: 768px) {}
 
-/* /RISOLUZIONE 1200 PX */
+/* /RISOLUZIONE 768px TABLET */
 
 
 
-/* RISOLUZIONE 1200px DESKTOP*/
+/* RISOLUZIONE 1200px DESKTOP */
 @media screen and (min-width: 1200px) {
 
     /* HEADER */
@@ -96,4 +111,4 @@ header .topbar {
     /* HEADER */
 }
 
-/* /RISOLUZIONE 1200 PX */
+/* /RISOLUZIONE 1200px DESKTOP */
