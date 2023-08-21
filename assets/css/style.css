@@ -128,6 +128,7 @@ main .planning .row .col {
 
     /* /demo */
 
+
     /* /MAIN */
 }
 
@@ -165,6 +166,25 @@ main .planning .row .col {
     }
 
     /* /demo */
+
+    
+    /* planning */
+    main .planning .row {
+        display: flex;
+    }
+
+    main .planning .row .col {
+        width: calc(100% / 2);
+    }
+
+    main .planning .row .col:first-child {
+        justify-content: flex-end;
+    }
+
+    main .planning .row .col:last-child {
+        justify-content: flex-start;
+    }
+    /* /planning */
 
 
     /* /MAIN */
