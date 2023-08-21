@@ -15,7 +15,7 @@
  ************************************************/
 /* !Container di default (DA ADATTARE AL LAVORO CORRENTE) */
 .container {
-    max-width: 1200px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -51,6 +51,7 @@ header .topbar {
 main .demo .row .col {
     /* !ALTEZZA PROVVISORIA (DA ELIMINARE) */
     height: 200px;
+    margin: 20px 0;
 }
 
 main .demo .row .col .card {
@@ -70,6 +71,11 @@ main .planning .row .col {
     justify-content: center;
     /* !ALTEZZA PROVVISORIA (DA ELIMINARE) */
     height: 200px;
+    margin: 10px 0;
+}
+
+main .planning .row .col:last-child {
+    border-radius: 10PX;
 }
 
 /* /planning */
@@ -83,6 +89,7 @@ main .testimonials .row .card {
     border-radius: 10px;
     flex-direction: column;
     align-items: center;
+    margin: 10px 0;
 }
 
 main .testimonials .row .card .img {
@@ -101,8 +108,15 @@ main .benefits {
 
 main .benefits .row .col .card {
     border-radius: 10px;
+    margin: 10px 0;
 }
 /* /benefits */
+
+/* about us */
+main .aboutus .box-aboutus .text, .box-aboutus .img {
+    margin: 10px 0;
+}
+/* /about us */
 
 /* get started */
 main .started {
