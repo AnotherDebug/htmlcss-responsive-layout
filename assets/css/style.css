@@ -1,7 +1,7 @@
 /*************************************************
     GENERAL STYLES
  *************************************************/
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -37,7 +37,12 @@
     SITE SECTIONS
  ************************************************/
 
+/* HEADER */
+header .topbar {
+    justify-content: space-between;
+}
 
+/* /HEADER */
 
 
 /************************************************
@@ -45,3 +50,50 @@
  ************************************************/
 
 /* SOLUZIONE MOBILE FIRST */
+
+
+
+/* RISOLUZIONE 550px MOBILE */
+@media screen and (min-width: 550px) {
+
+    /* HEADER */
+    header .topbar .menu-right {
+        display: none;
+    }
+
+    /* /HEADER */
+}
+
+/* /RISOLUZIONE 1200 PX */
+
+
+
+/* RISOLUZIONE 768px TABLET */
+@media screen and (min-width: 768px) {}
+
+/* /RISOLUZIONE 1200 PX */
+
+
+
+/* RISOLUZIONE 1200px DESKTOP*/
+@media screen and (min-width: 1200px) {
+
+    /* HEADER */
+    header .topbar.container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    header .topbar .b-menu {
+        display: none;
+    }
+
+    header .topbar .menu-right {
+        display: block;
+        display: flex;
+    }
+
+    /* HEADER */
+}
+
+/* /RISOLUZIONE 1200 PX */
