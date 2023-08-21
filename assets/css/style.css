@@ -112,6 +112,15 @@ main .started {
 
 /* /MAIN */
 
+/* FOOTER */
+footer .box-menu {
+    max-width: 1200px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* /FOOTER */
+
 
 /************************************************
     RESPONSIVE
