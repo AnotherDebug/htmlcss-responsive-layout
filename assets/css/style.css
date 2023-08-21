@@ -339,6 +339,18 @@ footer .box-menu {
         width: calc(100% / 3);
     }
 
+    main .benefits .row .col .card {
+        margin: 10px 10px;
+    }
+
+    main .benefits .row .col:nth-child(1) .card, .benefits .row .col:nth-child(4) .card {
+        margin-left: 0;
+    }
+
+    main .benefits .row .col:nth-child(3) .card, .benefits .row .col:nth-child(6) .card {
+        margin-right: 0;
+    }
+
     /* /benefits */
 
 
