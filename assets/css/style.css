@@ -178,6 +178,13 @@ main .benefits .row .col .card {
     }
     /* /benefits */
 
+    /* about us */
+    main .aboutus .box-aboutus {
+        display: flex;
+        justify-content: center;
+    }
+    /* /about us */
+
 
     /* /MAIN */
 }
