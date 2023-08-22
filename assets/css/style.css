@@ -136,7 +136,7 @@ main .testimonials .row .card .text p {
 /* /testimonials */
 
 /* benefits */
-main .benefits {
+main .benefits .text {
     text-align: center;
 }
 
@@ -145,6 +145,15 @@ main .benefits .row .col .card {
     margin: 10px 0;
     /* !ALTEZZA PROVVISORIA (DA ELIMINARE) */
     height: 200px;
+    padding: 20px 10px;
+}
+
+main .benefits .row .col .card h1, h3, p{
+    padding: 10px 0;
+}
+
+main .benefits .row .col .card .button{
+    padding-top: 10px;
 }
 
 /* /benefits */
