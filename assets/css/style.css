@@ -51,6 +51,7 @@
     color: black;
     border-radius: 20px;
     text-align: center;
+    font-weight: 600;
 }
 
 
@@ -396,6 +397,24 @@ footer .box-menu {
     header .topbar .menu-right {
         display: block;
         display: flex;
+        align-items: center;
+    }
+
+    header .topbar .menu-right ul {
+        list-style: none;
+    }
+
+    header .topbar .menu-right ul li {
+        padding-right: 30px;
+    }
+
+    header .topbar .menu-right ul li a {
+        text-decoration: none;
+        color: var(--white-color);
+    }
+
+    header .topbar .menu-right .button a {
+        text-decoration: none;
     }
 
     /* HEADER */
