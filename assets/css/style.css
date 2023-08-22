@@ -753,6 +753,10 @@ footer .box-menu {
         text-decoration: none;
     }
 
+    header .topbar .button a {
+        color: #000;
+    }
+
     /* HEADER */
 
     /* MAIN */
