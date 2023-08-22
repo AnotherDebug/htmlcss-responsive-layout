@@ -49,8 +49,19 @@
  ************************************************/
 
 /* HEADER */
+header {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
 header .topbar {
     justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+header .topbar .b-menu {
+    cursor: pointer;
 }
 
 /* /HEADER */
