@@ -24,6 +24,7 @@ body {
 /* /COLORS */
 
 
+
 /************************************************
     UTILITIES
  ************************************************/
@@ -238,30 +239,72 @@ main .planning .row .col .card .button i {
 /* testimonials */
 main .testimonials {
     text-align: center;
-    padding: 60px;
+    padding: 60px 0;
 }
 
 main .testimonials .text p {
     padding: 20px;
+    line-height: 30px;
 }
 
-main .testimonials .row .card {
-    border-radius: 10px;
+main .testimonials .text h1 {
+    color: var(--violet-color);
+}
+
+main .testimonials .row .col .card {
     flex-direction: column;
     align-items: center;
     margin: 10px 0;
-    padding: 20px 10px;
+    border-radius: 30px;
+    padding: 30px 0;
+    background-color: var(--violet-color);
+    color: var(--white-color);
 }
 
-main .testimonials .row .card .img {
-    width: 100px;
-    height: 100px;
-    background-color: #000;
+main .testimonials .row .col:first-child .card .img {
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
+    background-image: url('../img/testimonial1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .testimonials .row .col.col:nth-child(2) .card .img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url('../img/testimonial2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .testimonials .row .col:last-child .card .img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url('../img/testimonial3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .testimonials .row .card .text p {
-    padding: 10px;
+    padding: 20px;
+}
+
+main .testimonials .row .card .text p:before {
+    content: '\275D';
+    padding-right: 5px;
+    font-size: 25px;
+}
+
+main .testimonials .row .card .text p:after {
+    content: '\275E';
+    padding-left: 5px;
+    font-size: 25px;
 }
 
 /* /testimonials */
@@ -406,9 +449,51 @@ footer .box-menu {
         align-items: center;
     }
 
+    main .testimonials .row .col .card .img {
+        width: 30%;
+    }
+
+    main .testimonials .row .col:first-child .card .img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-image: url('../img/testimonial1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 20px;
+    }
+    
+    main .testimonials .row .col.col:nth-child(2) .card .img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-image: url('../img/testimonial2.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 20px;
+    }
+    
+    main .testimonials .row .col:last-child .card .img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-image: url('../img/testimonial3.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 20px;
+    }
+
     main .testimonials .row .col .card .text {
+        width: 70%;
         text-align: start;
         padding-left: 20px;
+    }
+
+    main .testimonials .row .col .card .text h2 {
+        padding: 20px;
     }
 
     /* /testimonials */
@@ -539,7 +624,7 @@ footer .box-menu {
         width: 50%;
     }
 
-    main .planning .row .col:first-child .card .text h1{
+    main .planning .row .col:first-child .card .text h1 {
         font-size: 30px;
     }
 
