@@ -371,9 +371,61 @@ main .benefits .row .col .card .button a {
 /* /benefits */
 
 /* about us */
-main .aboutus .box-aboutus .text,
-.box-aboutus .img {
-    margin: 10px 0;
+main .aboutus .box-aboutus .text {
+    padding: 20px;
+}
+
+main .aboutus .box-aboutus .text h1 {
+    font-size: 40px;
+    color: var(--violet-color);
+    padding-top: 30px;
+}
+
+main .aboutus .box-aboutus .text p {
+    line-height: 40px;
+    padding: 30px 0;
+}
+
+main .aboutus .box-aboutus .linkedin .img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url('../img/about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+main .aboutus .box-aboutus .linkedin .img:before {
+    content: '\275D';
+    font-size: 200px;
+    color: var(--violet-color);
+    margin-left: 180px;
+}
+
+main .aboutus .box-aboutus .linkedin .text {
+    width: 100%;
+}
+
+main .aboutus .box-aboutus .linkedin .text h2 {
+    color: var(--violet-color);
+    font-size: 30px;
+}
+
+main .aboutus .box-aboutus .linkedin .text .button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+main .aboutus .box-aboutus .linkedin .text .button i {
+    color: var(--white-color);
+    padding-right: 10px;
+}
+
+main .aboutus .box-aboutus .linkedin .text .button a {
+    text-decoration: none;
+    color: var(--white-color);
 }
 
 /* /about us */
@@ -568,8 +620,13 @@ footer .box-menu {
         width: 65%;
     }
 
-    main .aboutus .box-aboutus .img {
+    main .aboutus .box-aboutus .linkedin {
         width: 35%;
+        margin-top: 60px;
+    }
+
+    main .aboutus .box-aboutus .linkedin .button {
+        min-width: 280px;
     }
 
     /* /about us */
