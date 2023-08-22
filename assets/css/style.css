@@ -89,7 +89,7 @@ main .planning .row .col:last-child {
     border-radius: 10px;
 }
 
-main .planning .row .col:first-child .card{
+main .planning .row .col:first-child .card {
     flex-direction: column;
 }
 
@@ -98,7 +98,7 @@ main .planning .row .col:last-child .card {
     align-items: center;
 }
 
-main .planning .row .col .card{
+main .planning .row .col .card {
     padding: 20px;
 }
 
@@ -148,11 +148,13 @@ main .benefits .row .col .card {
     padding: 20px 10px;
 }
 
-main .benefits .row .col .card h1, h3, p{
+main .benefits .row .col .card h1,
+.benefits .row .col .card h3,
+.benefits .row .col .card p {
     padding: 10px 0;
 }
 
-main .benefits .row .col .card .button{
+main .benefits .row .col .card .button {
     padding-top: 10px;
 }
 
@@ -226,7 +228,6 @@ footer .box-menu {
     }
 
     main .demo .row .col:nth-child(2) {
-        width: 33.33;
         flex-grow: 1;
     }
 
@@ -275,6 +276,7 @@ footer .box-menu {
         text-align: start;
         padding-left: 20px;
     }
+
     /* /testimonials */
 
     /* benefits */
@@ -305,6 +307,14 @@ footer .box-menu {
     main .aboutus .box-aboutus {
         display: flex;
         justify-content: center;
+    }
+
+    main .aboutus .box-aboutus .text {
+        width: 65%;
+    }
+
+    main .aboutus .box-aboutus .img {
+        width: 35%;
     }
 
     /* /about us */
@@ -346,12 +356,12 @@ footer .box-menu {
         margin: 0 auto;
         margin-bottom: 50px;
     }
-    
+
     main .demo .row .col:first-child .card {
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
 
     /* /demo */
 
