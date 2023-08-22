@@ -58,6 +58,16 @@ body {
     font-weight: 600;
 }
 
+.btn-blue {
+    background-color: var(--blue-color);
+    padding: 10px 50px;
+    display: inline-block;
+    color: var(--white-color);
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
 
 .btn-violet {
     background-color: var(--violet-color);
@@ -105,22 +115,20 @@ header .topbar .b-menu {
 /* MAIN */
 
 /* demo */
+main .demo {
+    color: var(--blue-color);
+}
 
 main .demo .row .col {
-    /* !ALTEZZA PROVVISORIA (DA ELIMINARE) */
-    height: 200px;
     margin: 20px 0;
 }
 
 main .demo .row .col .card {
-    /* !ALTEZZA PROVVISORIA (DA ELIMINARE) */
-    height: 100%;
-}
-
-main .demo .row .col .card {
     flex-direction: column;
-    padding: 25px 20px;
+    padding-top: 25px;
+    padding: 0 20px;
     border-radius: 10px;
+    background-color: var(--lightblue-color);
 }
 
 main .demo .row .col:nth-child(2) .card,
@@ -130,6 +138,28 @@ main .demo .row .col:nth-child(2) .card,
     align-items: center;
 }
 
+main .demo .row .col .card p{
+    color: #000;
+    padding: 30px 0;
+}
+
+main .demo .row .col .card .text {
+    padding-top: 30px;
+}
+
+main .demo .row .col .card .text .button a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+main .demo .row .col .card .text .button a i{
+    padding-right: 10px;
+}
+
+main .demo .row .col .card img{
+    width: 100%;
+    margin-top: 30px;
+}
 
 /* /demo */
 
@@ -277,7 +307,6 @@ footer .box-menu {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-bottom: 50px;
     }
 
 
@@ -301,12 +330,10 @@ footer .box-menu {
 
     main .demo .row .col:first-child .card {
         margin-left: 0;
-        margin-top: 20px;
     }
 
     main .demo .row .col:nth-child(2) .card {
         margin-right: 0;
-        margin-top: 20px;
     }
 
     main .demo .row .col:nth-child(3) .card {
@@ -430,7 +457,6 @@ footer .box-menu {
     main .demo .row {
         max-width: 1200px;
         margin: 0 auto;
-        margin-bottom: 50px;
     }
 
     main .demo .row .col:first-child .card {
