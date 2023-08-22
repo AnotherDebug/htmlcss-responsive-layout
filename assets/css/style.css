@@ -107,6 +107,11 @@ main .planning .row .col .card{
 /* testimonials */
 main .testimonials {
     text-align: center;
+    padding: 60px;
+}
+
+main .testimonials .text p {
+    padding: 20px;
 }
 
 main .testimonials .row .card {
@@ -114,6 +119,7 @@ main .testimonials .row .card {
     flex-direction: column;
     align-items: center;
     margin: 10px 0;
+    padding: 20px 10px;
 }
 
 main .testimonials .row .card .img {
@@ -121,6 +127,10 @@ main .testimonials .row .card .img {
     height: 100px;
     background-color: #000;
     border-radius: 50%;
+}
+
+main .testimonials .row .card .text p {
+    padding: 10px;
 }
 
 /* /testimonials */
@@ -243,13 +253,20 @@ footer .box-menu {
     /* /demo */
 
     /* planning */
-    main .testimonials .row .card {
+    main .testimonials .row .col .card {
         border-radius: 10px;
         flex-direction: row;
         align-items: center;
     }
 
     /* /planning */
+
+    /* testimonials */
+    main .testimonials .row .col .card .text {
+        text-align: start;
+        padding-left: 20px;
+    }
+    /* /testimonials */
 
     /* benefits */
     main .benefits .row {
