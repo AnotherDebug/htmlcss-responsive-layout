@@ -60,9 +60,18 @@ main .demo .row .col .card {
 }
 
 main .demo .row .col .card {
-    justify-content: center;
+    flex-direction: column;
+    padding: 25px 20px;
     border-radius: 10px;
 }
+
+main .demo .row .col:nth-child(2) .card,
+.demo .row .col:nth-child(3) .card,
+.demo .row .col:nth-child(4) .card,
+.demo .row .col:nth-child(5) .card {
+    align-items: center;
+}
+
 
 /* /demo */
 
@@ -149,8 +158,8 @@ footer .box-menu {
 
 /* SOLUZIONE MOBILE FIRST */
 
-/* RISOLUZIONE 550px MOBILE */
-@media screen and (min-width: 550px) {
+/* RISOLUZIONE 200px MOBILE */
+@media screen and (min-width: 200px) {
 
     /* HEADER */
     header .topbar .menu-right {
@@ -160,7 +169,7 @@ footer .box-menu {
     /* /HEADER */
 }
 
-/* /RISOLUZIONE 550px MOBILE */
+/* /RISOLUZIONE 200px MOBILE */
 
 
 
@@ -296,6 +305,12 @@ footer .box-menu {
         margin: 0 auto;
         margin-bottom: 50px;
     }
+    
+    main .demo .row .col:first-child .card {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
 
     /* /demo */
 
@@ -307,7 +322,7 @@ footer .box-menu {
     }
 
     main .planning .row .col {
-       
+
         margin: 0 10px;
     }
 
@@ -343,11 +358,13 @@ footer .box-menu {
         margin: 10px 10px;
     }
 
-    main .benefits .row .col:nth-child(1) .card, .benefits .row .col:nth-child(4) .card {
+    main .benefits .row .col:nth-child(1) .card,
+    .benefits .row .col:nth-child(4) .card {
         margin-left: 0;
     }
 
-    main .benefits .row .col:nth-child(3) .card, .benefits .row .col:nth-child(6) .card {
+    main .benefits .row .col:nth-child(3) .card,
+    .benefits .row .col:nth-child(6) .card {
         margin-right: 0;
     }
 
