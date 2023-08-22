@@ -399,10 +399,12 @@ main .aboutus .box-aboutus .linkedin .img {
 }
 
 main .aboutus .box-aboutus .linkedin .img:before {
+    position: relative;
     content: '\275D';
     font-size: 200px;
     color: var(--violet-color);
-    margin-left: 180px;
+    bottom: 70px;
+    left: 190px;
 }
 
 main .aboutus .box-aboutus .linkedin .text {
